@@ -1,0 +1,7 @@
+<fieldset :data-required="required">
+  <legend>
+    <h2 @text="title"></h2>
+    <p @text="label"></p> 
+  </legend>
+  <slot></slot>
+</fieldset>
