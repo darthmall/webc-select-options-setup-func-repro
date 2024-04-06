@@ -1,21 +1,6 @@
-<!-- Top level component -->
-<script webc:setup>
-	function options() {
-		return [
-			"1",
-			"2",
-			"3",
-			"4",
-		];
-	}
-</script>
-
 <cr-fieldset
   title="Your motivation"
   label="Why does this motivate you?"
 >
-  <cr-select
-    name="motivation" 
-    :@options="options()"
-  ></cr-select>
+  <motivation-select></motivation-select> 
 </cr-fieldset>
