@@ -1,0 +1,16 @@
+<!-- Top level component -->
+<script webc:setup>
+	function options() {
+		return [
+			"1",
+			"2",
+			"3",
+			"4",
+		];
+	}
+</script>
+
+<cr-select
+	name="motivation" 
+	:@options="options()"
+></cr-select>

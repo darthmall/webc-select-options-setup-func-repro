@@ -1,0 +1,10 @@
+<select
+	:name="name"
+>
+	<option value="">Please select</option>
+		<script webc:type="js" webc:root>
+			options
+				.map((value) => `<option value="${value}">${value}</option>`)
+				.join("\n");
+		</script>
+</select>
