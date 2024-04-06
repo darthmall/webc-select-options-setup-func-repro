@@ -1,16 +1,5 @@
-<!-- Top level component -->
-<script webc:setup>
-	function options() {
-		return [
-			"1",
-			"2",
-			"3",
-			"4",
-		];
-	}
-</script>
-
-<cr-select
-	name="motivation" 
-	:@options="options()"
-></cr-select>
+<h1>Motivation section</h1>
+<form>
+  <motivation-section></motivation-section>
+  <button type="submit">Continue</button>
+</form>
